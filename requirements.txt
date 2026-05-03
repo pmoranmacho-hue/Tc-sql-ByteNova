@@ -1,3 +1,5 @@
+Librerias de Python necesarias
+
 google-cloud-bigquery
 google-auth
 db-dtypes
