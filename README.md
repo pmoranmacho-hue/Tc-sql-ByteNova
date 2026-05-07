@@ -114,10 +114,23 @@ GOOGLE_APPLICATION_CREDENTIALS=./credentials/service-account.json
 
 Ejecuta los notebooks en orden:
 
-1. `01_setup_bigquery.ipynb` — crea el dataset y las tablas en BigQuery
-2. `02_generate_data.ipynb` — genera y carga los datos sintéticos
-3. `03_queries_verification.ipynb` — ejecuta las queries de verificación
+## Ejecución
 
+### Flujo principal
+
+Ejecuta los notebooks en orden:
+
+1. `01_setup_bigquery.ipynb` — crea el dataset y las tablas en BigQuery  
+2. `02_generate_data.ipynb` — genera y carga los datos sintéticos  
+3. `03_queries_verification.ipynb` — ejecuta las queries analíticas y validaciones de datos  
+
+### Flujo alternativo (Data Engineering)
+
+Opcionalmente, puedes ejecutar el pipeline orientado a ingeniería de datos:
+
+1. `01_setup_bigquery.ipynb` — crea el dataset y las tablas en BigQuery  
+2. `04_data_engineer_b_transactions_load.ipynb` — genera, transforma y carga transacciones masivas en BigQuery  
+3. `03_queries_verification.ipynb` — ejecuta las queries analíticas y validaciones de datos  
 ---
 
 ## Stack tecnológico
