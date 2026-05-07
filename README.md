@@ -35,6 +35,10 @@ TC-SQL-BYTENOVA/
 │   ├── 01_setup_bigquery.ipynb  # Configuración del dataset y tablas en BigQuery
 │   ├── 02_generate_data.ipynb   # Generación de datos sintéticos con Faker
 │   └── 03_queries_verification.ipynb  # Queries analíticas de verificación
+|   └── 04_data_engineer_b_transactions_load.ipynb  # Pipeline alternativo de carga masiva de transacciones:
+                                                 # genera datos transaccionales, aplica validaciones,
+                                                 # transforma formatos y realiza la inserción en BigQuery
+
 ├── .env.example                 # Plantilla de variables de entorno (sin credenciales reales)
 ├── .gitignore
 ├── README.md
