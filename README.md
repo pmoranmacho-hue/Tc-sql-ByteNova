@@ -114,7 +114,6 @@ GOOGLE_APPLICATION_CREDENTIALS=./credentials/service-account.json
 
 Ejecuta los notebooks en orden:
 
-## Ejecución
 
 ### Flujo principal
 
