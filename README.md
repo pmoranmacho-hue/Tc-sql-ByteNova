@@ -18,7 +18,7 @@ ByteNova necesita una base de datos centralizada que le permita gestionar su cat
 | Pablo | Scrum Master | `feature/setup-bigquery` |
 | Lucía | Data Modeler | `feature/er-diagram` |
 | Ana | Data Engineer A (tablas maestras) | `feature/data-generation-master` |
-| Nil | Data Engineer B | Generación de transacciones y carga | `feature/data-generation-orders` |
+| Nil | Data Engineer B Generación de transacciones y carga | `feature/data-enginer-Nil` |
 | Enrique | QA / Docs | `feature/queries-validation` |
 
 ---
